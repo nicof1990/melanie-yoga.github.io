@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yoga con Melanie</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI',sans-serif;
+    color:#333;
+    line-height:1.6;
+}
+
+.hero{
+    height:100vh;
+    background:
+    linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.15)),
+    url('Melanie en el Lago 2.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.hero-content{
+    background: rgba(255,255,255,0.18);
+    backdrop-filter: blur(8px);
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 700px;
+}
+
+.hero-content h1,
+.hero-content p{
+    color: white;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.7);
+}
+
+.btn{
+    display:inline-block;
+    background:#9a8c98;
+    color:white;
+    text-decoration:none;
+    padding:14px 30px;
+    border-radius:30px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#7f6d80;
+}
+
+section{
+    padding:80px 10%;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:40px;
+    color:#6d597a;
+}
+
+.sobre-mi{
+    max-width:800px;
+    margin:auto;
+    text-align:center;
+}
+
+.clases{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.tarjeta{
+    background:#f8f6fa;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+.tarjeta h3{
+    margin-bottom:15px;
+    color:#6d597a;
+}
+
+.testimonios{
+    background:#fafafa;
+}
+
+.testimonio{
+    max-width:700px;
+    margin:20px auto;
+    text-align:center;
+    font-style:italic;
+}
+
+.contacto{
+    text-align:center;
+}
+
+.contacto p{
+    margin:10px 0;
+    font-size:1.1rem;
+}
+
+footer{
+    background:#6d597a;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Yoga con Melanie</h1>
+        <p>Conectá con tu cuerpo, tu respiración y tu bienestar.</p>
+        <a href="#contacto" class="btn">Reservar una clase</a>
+    </div>
+</section>
+
+<section>
+    <div class="sobre-mi">
+        <h2>Sobre Melanie</h2>
+        <p>
+            Soy profesora de yoga y acompaño a personas de todos los niveles
+            a desarrollar fuerza, flexibilidad y equilibrio. Mis clases están
+            diseñadas para ayudarte a reducir el estrés, mejorar tu bienestar
+            físico y encontrar un espacio de calma en el día a día.
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2>Clases</h2>
+
+    <div class="clases">
+        <div class="tarjeta">
+            <h3>Yoga para Principiantes</h3>
+            <p>Aprendé las posturas fundamentales y construí una base sólida para tu práctica.</p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>Yoga Dinámico</h3>
+            <p>Sesiones fluidas que combinan movimiento, respiración y concentración.</p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>Clases Personalizadas</h3>
+            <p>Prácticas adaptadas a tus objetivos, necesidades y ritmo personal.</p>
+        </div>
+    </div>
+</section>
+
+<section class="testimonios">
+    <h2>Lo que dicen mis alumnos</h2>
+
+    <div class="testimonio">
+        "Las clases de Melanie me ayudaron a mejorar mi postura y a sentirme mucho más relajada."
+    </div>
+
+    <div class="testimonio">
+        "Una profesora cálida, profesional y muy atenta a cada alumno."
+    </div>
+</section>
+
+<section id="contacto" class="contacto">
+    <h2>Empezá tu práctica hoy</h2>
+
+    <p>📧 contacto@melanieyoga.com</p>
+    <p>📱 WhatsApp: +54 11 1234-5678</p>
+    <p>📸 Instagram: @melanie.yoga</p>
+</section>
+
+<footer>
+    © 2026 Melanie Yoga · Todos los derechos reservados
+</footer>
+
+</body>
+</html>
